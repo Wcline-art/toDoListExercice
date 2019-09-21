@@ -22,7 +22,13 @@ function getInputValueEnter(key) {
     if (InputValue() > 0 && key.keyCode === 13) {
         addItemInTodoList();
 }
-
+function getFirstCapitalize() {
+    return (
+      input.value[0].toUpperCase() +
+      input.value.slice(1, InputValue()).toLowerCase()
+    );
+  }
+  
 function createElementLi() {
   li = document.createElement("li");
 }
@@ -41,3 +47,6 @@ function addItemInTodoList() {
   insertNewLiInDom();
   deleteInputField();
 }
+
+button.addEventListener("click", getInputValueClick);
+input.addEventListener("keypress", getInputValueEnter);

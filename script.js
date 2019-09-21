@@ -28,7 +28,6 @@ function getFirstCapitalize() {
       input.value.slice(1, InputValue()).toLowerCase()
     );
   }
-  
 function createElementLi() {
   li = document.createElement("li");
 }
@@ -40,6 +39,10 @@ function addInputValueInLi() {
 function insertNewLiInDom() {
   ul.insertAdjacentElement("beforeend", li);
 }
+
+function deleteInputField() {
+    input.value = "";
+  }
 
 function addItemInTodoList() {
   createElementLi();

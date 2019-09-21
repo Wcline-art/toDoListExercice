@@ -13,8 +13,15 @@ function InputValue() {
   return input.value.length;
 }
 
-function getInputValueClick() {}
-function getInputValueEnter() {}
+function getInputValueClick() {
+    if (InputValue() > 0) {
+        addItemInTodoList();
+      }
+}
+function getInputValueEnter(key) {
+    if (InputValue() > 0 && key.keyCode === 13) {
+        addItemInTodoList();
+}
 function createElementLi() {
   li = document.createElement("li");
 }

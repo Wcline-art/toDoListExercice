@@ -9,6 +9,10 @@ let li;
 
 // FUNCTIONS//
 
+function InputValue() {
+  return input.value.length;
+}
+
 function getInputValueClick() {}
 function getInputValueEnter() {}
 function createElementLi() {

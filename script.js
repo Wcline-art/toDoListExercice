@@ -22,6 +22,7 @@ function getInputValueEnter(key) {
     if (InputValue() > 0 && key.keyCode === 13) {
         addItemInTodoList();
 }
+
 function createElementLi() {
   li = document.createElement("li");
 }

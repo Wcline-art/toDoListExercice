@@ -14,13 +14,13 @@ function InputValue() {
   return input.value.length;
 }
 
-// function to get the value in the field when the user click to the button add
+// function to get the value in the list when the user click to the button add
 function getInputValueClick() {
   if (InputValue() > 0) {
     addItemInTodoList();
   }
 }
-// function to get the value in the field when the user press  the button enter
+// function to get the value in the list when the user press the button enter
 function getInputValueEnter(key) {
   if (InputValue() > 0 && key.keyCode === 13) {
     addItemInTodoList();
@@ -42,7 +42,7 @@ function createElementLi() {
 function addInputValueInLi() {
   li.append(document.createTextNode(getFirstCapitalize()));
 }
-// function insert new element'li' in DOM
+// function insert new element 'li' in DOM
 function insertNewLiInDom() {
   ul.insertAdjacentElement("beforeend", li);
 }

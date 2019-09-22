@@ -5,10 +5,31 @@
 /* GLOBAL STYLE */
 
 body {
-    background-image: url("img/wood-background.jpg");
-    background-size: cover;
-  }
+  background-image: url("img/wood-background.jpg");
+  background-size: cover;
+}
 
-  main {
-    font-family: "Montserrat", sans-serif;
-    font-family: "Oleo Script Swash Caps", cursive; 
+main {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+/* LAYOUT */
+
+figure {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+input {
+  margin-left: 230px;
+}
+button {
+  margin-left: 30px;
+}
+
+section {
+  padding-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 20px;
+}

@@ -33,3 +33,14 @@ section {
   margin-right: 250px;
   margin-bottom: 20px;
 }
+/* container  */
+.container-grocerylist {
+  display: block;
+  width: 700px;
+  margin: 13px auto;
+  border: 1px solid #b3b3ff;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: beige;
+}
